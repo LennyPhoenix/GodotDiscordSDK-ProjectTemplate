@@ -1,0 +1,46 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://scenes/Main.gd" type="Script" id=1]
+
+[node name="Main" type="VBoxContainer"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_constants/separation = 30
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Info" type="Label" parent="."]
+margin_right = 1024.0
+margin_bottom = 285.0
+size_flags_vertical = 7
+text = "This is an empty template project for using the Discord SDK in Godot.
+
+You can edit this however you want, though you should keep the bin/ and discord_sdk/ directories.
+Note that discord_sdk/ can be renamed to anything but all the files should be kept together in the same folder."
+align = 1
+valign = 2
+autowrap = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="SDKCheck" type="VBoxContainer" parent="."]
+margin_top = 315.0
+margin_right = 1024.0
+margin_bottom = 600.0
+size_flags_vertical = 3
+
+[node name="Label" type="Label" parent="SDKCheck"]
+margin_right = 1024.0
+margin_bottom = 14.0
+text = "SDK Status Check:"
+align = 1
+
+[node name="Status" type="Label" parent="SDKCheck"]
+margin_top = 18.0
+margin_right = 1024.0
+margin_bottom = 32.0
+text = "Initialising SDK..."
+align = 1
