@@ -28,6 +28,8 @@ This is a template for creating Godot projects that use the GodotDiscordSDK GDNa
       - If you are unsure whether to choose to choose Debug or Release, Release is recommended.
       - Make sure to download both the 32 and 64-bit versions.
     - Place the binaries in the corresponding bin/ folder:
+
       ![Binaries](.github/static/binaries.png)
+
 - Run the project to test.
 - Get started with [the docs](https://github.com/LennyPhoenix/GodotDiscordSDK/wiki).
