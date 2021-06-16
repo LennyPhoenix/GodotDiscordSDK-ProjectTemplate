@@ -1,7 +1,7 @@
 extends VBoxContainer
 
 
-onready var status: = $SDKCheck/Status
+onready var status := $SDKCheck/Status
 
 var discord: Discord.Core
 var activities: Discord.ActivityManager
@@ -25,7 +25,7 @@ func _ready() -> void:
 
 	status.text = "Updating activity..."
 
-	var activity: = Discord.Activity.new()
+	var activity := Discord.Activity.new()
 	activity.state = "Hello world"
 	activity.details = "from the GodotDiscordSDK!"
 	activity.assets.large_image = "icon"
