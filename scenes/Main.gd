@@ -26,8 +26,8 @@ func _ready() -> void:
 	status.text = "Updating activity..."
 
 	var activity := Discord.Activity.new()
-	activity.state = "Hello world"
-	activity.details = "from the GodotDiscordSDK!"
+	activity.details = "Hello world"
+	activity.state = "from the GodotDiscordSDK!"
 	activity.assets.large_image = "icon"
 	activity.assets.large_text = "GodotDiscordSDK"
 	activities.update_activity(activity, self, "_update_activity_callback")
