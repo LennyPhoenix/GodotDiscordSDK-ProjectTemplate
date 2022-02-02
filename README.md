@@ -24,7 +24,7 @@ This is a template for creating Godot projects that use the GodotDiscordSDK GDNa
       - Copy `x86_64/discord_game_sdk.so` to the repo's `bin/linux-32/` and `bin/linux-64/` directories as `libdiscord_game_sdk.so`.
       - Copy `x86_64/discord_game_sdk.dylib` to the repo's `bin/osx-32/` and `bin/osx-64/` directories as `libdiscord_game_sdk.dylib`.
   - For each operating system you target:
-    - Download the library binaries from [GitHub Actions](https://github.com/LennyPhoenix/GodotDiscordSDK/actions).
+    - Download the library binaries from [the releases page](https://github.com/LennyPhoenix/GodotDiscordSDK/releases) or [GitHub Actions](https://github.com/LennyPhoenix/GodotDiscordSDK/actions).
       - If you are unsure whether to choose to choose Debug or Release, Release is recommended.
       - Make sure to download both the 32 and 64-bit versions.
     - Place the binaries in the corresponding bin/ folder:
